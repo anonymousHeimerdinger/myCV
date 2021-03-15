@@ -1,0 +1,248 @@
+h1 {
+    font-family: 'Rye', 'sans-serif';
+    font-size: 30px;
+    color: rgb(239, 184, 16);
+}
+
+#wrapper, .wrapper {
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 14px;
+}
+
+#pMobile {
+    font-weight: bold;
+}
+
+body {
+    font-family: 'Georgia', 'sans-serif';
+    margin: 2% 7% 0%;
+    border-top: 10px solid rgb(239, 184, 16);
+    margin-bottom: 150px;
+}
+
+.alignHorizontal * {
+    display: inline-block;
+}
+
+#photo {
+    float: left;
+    margin: 0px 20px 0px;
+}
+
+#personalInformation {
+    float: right;
+    margin: 0px 100px 0px 20px;
+    text-align: center;
+}
+
+#personalInformation>* {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+header {
+    overflow: hidden;
+    margin: 1% 0% 2%;
+}
+
+i {
+    margin-right: 8px;
+}
+
+#liTelephon {
+    margin-right: 20px;
+}
+
+.fa-phone{
+    transform: scaleX(-1);
+}
+
+#ulPersonalInformation>* {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.section {
+    margin-top: 10px;
+}
+
+.section>h2 {
+    /*color: white;*/
+    border-bottom: 1px solid rgb(239, 184, 16);
+    /*-webkit-text-stroke: 1px rgb(239, 184, 16);*/
+    /*text-shadow: -1px -1px 0 rgb(239, 184, 16), 1px -1px 0 rgb(239, 184, 16), -1px 1px 0 rgb(239, 184, 16), 1px 1px 0 rgb(239, 184, 16);*/
+    color: rgb(239, 184, 16);
+    margin-bottom: 8px;
+    font-size: 16px;
+}
+
+h2{
+    margin-top: 25px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.sizeLittle {
+    font-size: 10px;
+}
+
+.overflowHidden {
+    overflow: hidden;
+}
+
+.overflowAuto {
+    overflow: auto;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+#summary>div {
+    margin: 10px 30px 5px;
+    line-height: 23px;
+}
+
+.section>ol>li {
+    padding: 3px 3px 5px;
+}
+
+#subjectsOfComputingDegree {
+    margin-left: 10px;
+}
+
+#subjectHonor {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+#subjects {
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+
+#subjects li{
+    margin-bottom: 7px;
+    margin-top: 7px;
+    font-weight: bold;
+}
+
+#subjectsOfComputingDegree h3 {
+    text-decoration: underline;
+}
+
+#subjects>li {
+    list-style: circle inside;
+}
+
+
+
+.borderDouble{
+    border-style: double;
+    border-width: 3px;
+    border-color: rgb(239, 184, 16);
+    padding: 2px 5px 5px;
+    margin: 15px 0px 30px;
+}
+
+h3{
+    text-decoration: underline;
+    margin: 10px 0px;
+    font-size: 16px;
+}
+
+.shadow{
+    color: white;
+    /*-webkit-text-stroke: 1px rgb(239, 184, 16);*/
+    text-shadow: -1px -1px 0 rgb(239, 184, 16), 1px -1px 0 rgb(239, 184, 16), -1px 1px 0 rgb(239, 184, 16), 1px 1px 0 rgb(239, 184, 16);
+    margin-bottom: 8px;
+}
+
+.gold{
+    color: rgb(239, 184, 16);
+}
+
+.black{
+    color: black;
+}
+
+.shadowDiamond{
+    /*color: white;*/
+    color: rgb(185,242,255);
+    /*-webkit-text-stroke: 1px rgb(239, 184, 16);*/
+    /*text-shadow: -1px -1px 0 rgb(185,242,255), 1px -1px 0 rgb(185,242,255), -1px 1px 0 rgb(185,242,255), 1px 1px 0 rgb(185,242,255);*/
+    margin-bottom: 8px;
+}
+
+.shadowBlue{
+    /*color: white;*/
+    color: rgb(119,136,153);
+    /*-webkit-text-stroke: 1px rgb(239, 184, 16);*/
+    /*text-shadow: -1px -1px 0 rgb(185,242,255), 1px -1px 0 rgb(185,242,255), -1px 1px 0 rgb(185,242,255), 1px 1px 0 rgb(185,242,255);*/
+    margin-bottom: 8px;
+}
+
+h4{
+    margin: 12px 0px 10px;
+}
+
+.typeStyleCircle{
+    /*list-style-type: circle;*/
+    margin-left:30px;
+}
+
+.shadowTest{
+    color: black;
+    /*-webkit-text-stroke: 1px rgb(239, 184, 16);*/
+    text-shadow: -1px -1px 0 rgb(239, 184, 16), 1px -1px 0 rgb(239, 184, 16), -1px 1px 0 rgb(239, 184, 16), 1px 1px 0 rgb(239, 184, 16);
+    margin-bottom: 8px;
+}
+
+.width{
+    width: 47%;
+}
+
+.pack{
+    margin-bottom: 6px;
+}
+
+.margin_top{
+    margin-top: 10px;
+}
+
+.marginLeft{
+    margin-left: 30px;
+}
+
+.colorGray{
+    background-color: rgb(220,220,220);
+}
+
+.colorBlue{
+    background-color: rgb(119,136,153);
+    color:white;
+}
+.colorGold{
+    background-color: rgb(239, 184, 16);
+}
+
+.colorGoldOpacity{
+    background-color: rgb(239, 184, 16, 0.1);
+}
+
+.colorYellow{
+    background-color: yellow;
+}
+.colorTest{
+    background-color: hsla(0, 100%, 70%, 0.1);
+}
+.colorTest2{
+    background-color: hsla(0, 100%, 90%, 0.2);
+}
